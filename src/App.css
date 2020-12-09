@@ -1,0 +1,262 @@
+
+
+
+.App {
+  text-align: center;
+ 
+}
+#logo2{
+  color: rgb(229, 9, 20);
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px black;
+}
+
+img:hover {
+  cursor: pointer;
+  
+ 
+
+}
+
+body{
+  background-color:rgb(24, 24, 24) ;
+  color: white;
+}
+.genreTitle{
+  text-align: left;
+  margin-left: 70px;
+}
+
+.AllImgesContiner .aboutLeaderImg{
+  display:flex; 
+  
+
+ 
+ }
+p{
+ text-align: center;
+ display: inline-block;
+ width: 120px;
+ vertical-align: top;
+}
+.imgPcontainer{
+  margin-left: 15px;
+  padding: 0 2px;
+ 
+}
+  
+  
+
+
+.mainContainer{
+   display: grid;
+   grid-template-columns: repeat(3,10);
+   /* overflow: hidden; */
+   
+    
+
+ 
+}
+#header{
+  display:grid;
+  grid-template-columns: 8fr  3fr 1fr 1fr ;
+  position:fixed;
+  justify-content: space-between;
+  height: 40px;
+   background-color: black;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+text-align: start;
+padding: 5px;
+padding-left: 10px;
+
+
+
+}
+.netlogo  {
+  cursor: pointer;
+  height: 35px;
+  width: 110px;
+  
+  
+  }
+  button{
+      height: 30px;
+      margin-top: 5px;
+      background-color: red;
+      color: white;
+      margin-left:5px;
+      width: 90px;
+  }
+  #phead {
+    display: block;
+    margin-top: 2px;
+    text-align: left;
+    margin-left: 70px;
+     min-width: 598px;
+  
+  } 
+  h1{
+    font-size: 50px;
+    /* font-weight: 600; */
+    font-weight: bolder;
+    display: block;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 70px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color:  rgb(87, 79,82);
+    color: white;
+    margin-top: 50px;
+   position: relative;
+   margin-left: 40px;
+   margin-right: 40px;
+  }
+  
+  .nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  li:hover{
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+ /* ===========================About css========================= */
+ .App-header2{
+   color: red;
+   font-style: italic;
+   font-size: 30px;
+  
+ }
+ #aboutUs{
+margin-top: 10px;
+ }
+ .title{
+   text-align: center;
+   margin-right: 90px;
+ }
+ #p1{
+   color: white;
+ }
+ .netflixInfo{
+  display: block;
+  margin-top: 2px;
+  text-align: left;
+  margin-left: 70px;
+   min-width: 598px;
+   
+ }
+ .aboutLeaderImg{
+   display: flex;
+ flex-wrap: wrap;
+ width: 600px;
+ height: 1100px;
+ align-items: center;
+ margin: auto;
+ margin-bottom: 40px;
+
+ 
+ }
+ .aboutLeaderImg img{
+   height: 236px;
+   width: 100%px;
+   margin-left: 15px;
+   
+ }
+
+ div > h3{
+color: red;
+ }
+
+
+#anchor{
+  display:flex;
+ flex-wrap: wrap;
+  position:fixed;
+  justify-content: space-between;
+  height: 70px;
+  /* background-color:  rgba(73, 79,82,0.2); */
+  background-color:  rgba(73, 79,82,0.1);
+
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+/* text-align: start; */
+padding: 5px;
+padding-left: 25px;
+width: 110px;
+ 
+}
+#line{
+position: relative;
+height: 3px;
+background-size: contain;
+margin: 38px calc(50% - 50vw) 41px;
+background-image: linear-gradient(to right, transparent 0%, rgb(229, 9, 20) 50%, transparent 100%);
+}
+/* =========================Movies Details=============================== */
+.box{
+  position: relative;
+  display: inline-block;
+  margin: 10px; /* Make the width of box same as image */
+}
+  .box img{
+    height: 700px;
+    width: 600px;
+    align-items: flex-end;
+
+    
+  }
+
+.box .text{
+
+  margin-left: 20px;
+  top: 70%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 900px; /* Set the width of the positioned div */
+  max-width: 950px;
+}
+
+/* ================================FOOTER================================= */
+#logoContainer img{
+  width: 30px;
+  height: 25px;
+  margin: 30px;
+  
+}
+
+#logoContainer{
+   display: flex;
+   width: 250px;
+  margin: 160px;
+  margin-left: auto;
+} 
+#logo3{
+  margin-left: 35px;
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+#mpnetf{
+  margin-left: 450px;
+}
+#footerCont{
+  margin-bottom: 35px;
+}
+
+
+
+
